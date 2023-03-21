@@ -8,7 +8,7 @@
 #--------------------------------------------"""
 
 #/-----modules------/
-import os,re,random,uuid,subprocess,requests
+import os,re,random,uuid,subprocess
 from os import system
 import time, json, string
 os.system('touch /sdcard/007.txt')
@@ -22,6 +22,10 @@ try:
 	br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 except:
 	os.system('pip install mechanize')
+try:
+	import requests
+except:
+	os.system('clear')
 
 #------------(end)---------
 

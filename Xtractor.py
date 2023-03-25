@@ -392,7 +392,7 @@ class file_create_menu():
 					data = posted['data']['user']['friends']['edges']
 				except:
 					print(f' \033[1;35mSomething wrong with {uid}\033[0m ')
-				if len(data) < 100:
+				if len(data) < 10:
 					print(f' \033[1;31mFriends Are Private {uid}\033[0m ')
 				else:
 					for edge in data:
@@ -471,7 +471,7 @@ class file_create_menu():
 					data = posted['data']['user']['friends']['edges']
 				except:
 					print(f' \033[1;35msomething wrong with {uid}\033[0m ')
-				if len(data) < 100:
+				if len(data) < 10:
 					print(f' \033[1;31mfriends are private {uid}\033[0m ')
 				else:
 					for edge in data:
@@ -526,7 +526,7 @@ class file_create_menu():
 					data = posted['data']['user']['friends']['edges']
 				except:
 					print(f' \033[1;35msomething wrong with {uid}\033[0m ')
-				if len(data) < 100:
+				if len(data) < 10:
 					print(f' \033[1;31mFriends Are Private {uid}\033[0m ')
 				else:
 					for edge in data:
@@ -618,7 +618,7 @@ class file_create_menu():
 					data = posted['data']['user']['friends']['edges']
 				except:
 					print(f' \033[1;35msomething wrong with {uid}\033[0m ')
-				if len(data) < 100:
+				if len(data) < 10:
 					print(f' \033[1;31mFriends Are Private {uid}\033[0m ')
 				else:
 					for edge in data:
@@ -711,7 +711,7 @@ class file_create_menu():
 						data = posted['data']['user']['friends']['edges']
 					except:
 						print(f' \033[1;35msomething wrong with {uid}\033[0m ')
-					if len(data) < 100:
+					if len(data) < 10:
 						print(f' \033[1;31mFriends Are Private {uid}\033[0m ')
 					else:
 						for edge in data:
@@ -819,7 +819,7 @@ class file_create_menu():
 					data = posted['data']['user']['friends']['edges']
 				except:
 					print(f' \033[1;35msomething wrong with {uid}\033[0m ')
-				if len(data) < 100:
+				if len(data) < 10:
 					print(f' \033[1;31mFriends Are Private {uid}\033[0m ')
 				else:
 					for edge in data:

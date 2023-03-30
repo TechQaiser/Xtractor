@@ -1,6 +1,9 @@
-from requests import (
-    get
+try:
+    from requests import (
+        get
 )
+except:
+    os.system('pip install requests')
 from re import (
     findall
 )

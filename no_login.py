@@ -1,18 +1,21 @@
+from os import (
+
+    system
+
+)
 try:
     from requests import (
         get
 )
 except:
-    os.system('pip install requests')
+    system('pip install requests')
 from re import (
     findall
 )
 from random import (
     choice
 )
-from os import (
-    system
-)
+
 from platform import(
     machine
 )

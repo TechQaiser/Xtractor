@@ -25,7 +25,7 @@ except:
 try:
 	import requests
 except:
-	os.system('clear')
+	os.system('pip install requests')
 
 #------------(end)---------
 
